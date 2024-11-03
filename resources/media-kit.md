@@ -1,11 +1,11 @@
 # 🖼️ Kit de Medios
 
-Puedes descargar los Recursos de Marca y Logotipos de FEG para materiales promocionales (ver más abajo).
+Puedes descargar los Activos de Marca y Logotipos de FEG para materiales promocionales (ver abajo).
 
-Por favor, úsalos respetuosamente y ten en cuenta la protección de la marca FEG.
+Por favor, úsalos respetuosamente y con la protección de la marca FEG en mente.&#x20;
 
-Ten en cuenta que el uso de los logotipos de FEG y FEG Ecosystem no implica respaldo o promoción por parte del proyecto FEG.
+Nota, el uso de los Logotipos de FEG y del Ecosistema FEG no implica el respaldo o promoción del proyecto por parte del proyecto FEG.&#x20;
 
-O accede a través de GoogleDrive
+O accede a través de GoogleDrive:
 
-<mark style="color:blue;">**Pendiente de Actualización**</mark>
+<mark style="color:blue;">**Para ser Actualizado**</mark>

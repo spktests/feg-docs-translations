@@ -16,7 +16,7 @@
 6. lendData(address)
 7. loansBase(address)
 8. loansToken(address)
-9. oneTokentoBacking(uint256) - muestra cuánto respaldo de activo está disponible por 1 token
+9. oneTokentoBacking(uint256) - muestra cuánto Respaldo de Activos por 1 token está disponible
 10. range()
 11. uniswapV2Pair()
 
@@ -30,10 +30,10 @@
 
 1. convertAll(uint256,uint256,uint256)
 2. extendLoan() - extender SmartLoan
-3. flashLoan(uint256,address,bytes) - utilizado para Préstamo Rápido Inteligente con tasa de liquidez de 0.08%
+3. flashLoan(uint256,address,bytes) - usado para Smart Flash-Loan con tasa de liquidez del 0.08%
 4. liquifyForBacking(uint256)
-5. loan(uint256) - Usar esto para tomar SmartLoan
-6. repayLoan(uint256) - Usar esto para devolver SmartLoan
+5. loan(uint256) - Usa esto para tomar un SmartLoan
+6. repayLoan(uint256) - Usa esto para Reembolsar SmartLoan
 7. setFrontRunRange(uint256)
 
 </details>

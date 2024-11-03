@@ -2,6 +2,6 @@
 
 <figure><img src="../.gitbook/assets/Screenshot_19.png" alt=""><figcaption></figcaption></figure>
 
-¡TRABAJO EN PROGRESO!
+¡EN PROCESO!
 
-Para ser actualizado.
+Para ser actualizado

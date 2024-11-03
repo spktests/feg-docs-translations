@@ -3,63 +3,64 @@
 {% embed url="https://www.youtube.com/watch?v=_UvAYmQXnEc" %}
 
 {% hint style="success" %}
-Nota: estructura de tarifas para usar el Protocolo de Staking de SmartDeFi:
+Nota: estructura de tarifas para usar el Protocolo SmartDeFi Staking:
 
-* Hay una tarifa de 100$ en tokens FEG que se requerirá para que los propietarios de proyectos puedan desplegar el contrato de staking (valor de la tarifa FEG a anunciar). Los tokens FEG se quemarán durante el despliegue. El costo de 100$ de FEG se determinará durante el despliegue y dependerá del precio de mercado.
-* Hay una tarifa del 1% para los participantes que ingresan al staking. El % se distribuirá a los participantes de FEG, lo que permite expandir la lista de titulares y aumentar la exposición de su proyecto.
+* Hay una tarifa de $100 en tokens FEG que se requerirá para que los propietarios de proyectos puedan desplegar el contrato de staking (valor de la tarifa FEG por anunciar). Los tokens FEG se quemarán durante el despliegue. El costo de $100 de FEG se determinará durante el despliegue y dependerá del precio de mercado.
+* Hay una tarifa del 1% para los stakers de tokens al ingresar al staking. El porcentaje será distribuido a los stakers de FEG, lo cual permite expandir la lista de holders y aumentar la exposición de tu proyecto.
 {% endhint %}
 
 ## **Desplegar Staking**
 
 <figure><img src="../../.gitbook/assets/deploy staking UI.jpg" alt=""><figcaption></figcaption></figure>
 
-Después de haber acuñado tus nuevos tokens, puedes habilitar la función de staking para tu proyecto, permitiendo así que tus inversionistas participen en staking con sus tokens y ganen más recompensas pasivamente del impuesto de staking.\
+Después de que hayas acuñado tus nuevos tokens, puedes habilitar la función de staking para tu proyecto, permitiendo así que tus inversores hagan staking de sus tokens y obtengan más recompensas pasivamente del impuesto de staking.\
 \
-El primer paso es elegir un nombre y un símbolo para tu sistema de staking y luego hacer la aprobación, lo cual comprará y quemará una cantidad X de FEG _(cantidad final aún no decidida)_ como tarifa de servicio, luego haz clic en "Crear Staking" y acepta las solicitudes que tu aplicación de billetera necesite.&#x20;
+El primer paso es elegir un nombre y un símbolo para tu sistema de staking y luego hacer la aprobación, lo cual comprará y quemará X cantidad de FEG _(cantidad final aún no decidida)_ como tarifa de servicio, luego haz clic en "Create Stake" y acepta cualquier solicitud que necesite tu aplicación de billetera.&#x20;
 
-Después, pasarás al paso 2 donde deberías ver una multitud de opciones para personalizar tu contrato de staking. Puedes profundizar en ellas y editar ahora, o simplemente editarlas más tarde cuando te sea conveniente. Si todo está bien para ti, ahora puedes proceder a hacer clic en el botón "Habilitar Staking" para lanzar el sistema de staking públicamente para tus inversionistas.
+Después, pasarás al paso 2 donde deberías ver una multitud de opciones para personalizar tu contrato de staking. Puedes profundizar en ellas y editarlas ahora, o simplemente editarlas más tarde cuando te convenga. Si todo está correcto para ti, ahora puedes proceder a hacer clic en el botón "Enable Staking" para lanzar el sistema de staking públicamente para tus inversores.
 
-## Personalizar el contrato de staking
+## Personalizar contrato de staking
 
-El sistema SmartDeFi fue construido con la personalización en mente, de modo que el sistema te permitirá editar bastantes opciones relacionadas con tu contrato de staking y puedes hacerlo tanto antes como después de lanzar tu contrato de staking, dándote así la libertad de editar el staking según lo necesites y cuantas veces quieras, basándote en los requisitos cambiantes de tu proyecto y las necesidades de tu comunidad.
+El sistema SmartDeFi fue construido pensando en la personalización, por lo que el sistema te permitirá editar bastantes opciones relacionadas con tu contrato de staking y puedes hacerlo tanto antes como después de lanzar tu contrato de staking, dándote la libertad de editar el staking según sea necesario siempre que quieras y tantas veces como quieras, basado en los requisitos en evolución de tu proyecto y las necesidades de tu comunidad.
 
 ### Tarifas de depósito y retiro
 
 <figure><img src="../../.gitbook/assets/deposit and withdrawal fees.jpg" alt=""><figcaption></figcaption></figure>
 
-Puedes optar por establecer un par de impuestos que tus inversionistas tendrían que pagar cuando depositen fondos en staking o al retirar fondos. Este impuesto puede ser de hasta el 10% de los fondos que los usuarios staken o retiren, o puedes dejarlo en 0 si lo deseas.\
-Ten en cuenta que, si por ejemplo la tarifa de retiro se estableció en un 2% en el momento en que un usuario participó, incluso si luego cambias el impuesto y lo aumentas\* al 10%, el sistema recordará el nivel de impuesto original para ese usuario en particular, por lo que aún tendrá una tarifa de retiro del 2%. Tu impuesto aumentado solo se aplicará a nuevos usuarios/participantes, no a los antiguos. Dicho esto, si tu nuevo impuesto realmente reduce\* el impuesto del 2% a, por ejemplo, 1%, entonces ese nuevo impuesto se aplica tanto a los antiguos como a los nuevos participantes.&#x20;
+Puedes optar por establecer un par de impuestos que tus inversores tendrían que pagar cuando depositen fondos en el staking o cuando retiren fondos. Este impuesto puede ser de hasta el 10% de los fondos que los usuarios staken o des-staken, o puedes simplemente dejarlo en 0 si lo deseas.\
+Ten en cuenta que si, por ejemplo, la tarifa de retiro se estableció en un 2% en el momento en que un usuario hizo staking, incluso si más tarde cambias el impuesto y lo aumentas\* al 10%, el sistema recordará el nivel de imposición original para ese usuario en particular, por lo que aún tendrán un 2% de tarifa de retiro. Tu impuesto aumentado solo se aplicará para nuevos usuarios/stakers, no para stakers antiguos. Dicho esto, si tu nuevo impuesto de hecho disminuye\* el impuesto del 2% a, por ejemplo, el 1%, entonces ese nuevo impuesto se aplica tanto para stakers antiguos como nuevos.&#x20;
 
-### Asignación de tarifas de staking
+### Asignación de tarifa de staking
 
 <figure><img src="../../.gitbook/assets/set staking fee allocation.jpg" alt=""><figcaption></figcaption></figure>
 
-Si has decidido habilitar un impuesto de depósito o retiro, también puedes elegir para qué usar dichos impuestos y eso te da dos opciones, puedes asignar esos ingresos a tus participantes o puedes quemarlos, aumentando así la tasa de quema de tu proyecto deflacionario.
+Si has decidido habilitar un impuesto de depósito o retiro, también puedes elegir para qué usar estos impuestos y eso te da dos opciones: puedes asignar esos ingresos a tus stakers o puedes quemarlos, aumentando así la tasa de quema de tu proyecto deflacionario.
 
-### Retraso de Retiro
+### Retraso para Des-stakear
 
 <figure><img src="../../.gitbook/assets/mature unstake delay.jpg" alt=""><figcaption></figcaption></figure>
 
-El contrato te permite establecer un retraso personalizado para que los usuarios no puedan retirar durante los próximos X días después de haber participado por primera vez, o puedes dejarlo como está y la gente puede entrar y salir como quiera.\
-Primero, deberás hacer clic en el botón "habilitar retraso" y luego podrás elegir el número deseado de días para bloquear a las personas de retirar y finalmente hacer clic en "establecer retraso" para activar la nueva configuración.
+El contrato te permite configurar un retraso personalizado para que los usuarios no puedan des-stakear durante los próximos X días después de que hayan hecho staking por primera vez, o puedes simplemente dejarlo como está y la gente podrá entrar y salir cuando lo desee.\
+Primero tendrás que hacer clic en el botón "enable delay" y luego puedes elegir el número deseado de días para bloquear a las personas de des-stakear y finalmente hacer clic en "set delay" para activar la nueva configuración.
 
 ### Activar Sacrificio para tu Staking
 
 <figure><img src="../../.gitbook/assets/set reward sacrifice.jpg" alt=""><figcaption></figcaption></figure>
 
-La función de sacrificio se introdujo en el nuevo contrato de Staking a solicitud de la comunidad para aquellos que deseen ayudar con los esfuerzos de quema y disminuir la oferta de tokens en circulación.\
-Cuando esta opción sea habilitada por ti, el desarrollador, los participantes pueden elegir quemar un porcentaje personalizado que eligen de sus recompensas de staking en el momento en que retiren o reclamen recompensas.\
-El sacrificio está configurado al 0% por defecto, de modo que los usuarios puedan decidir personalmente cuánto les gustaría quemar, si es que desean quemar algo.
+La función de sacrificio se introdujo en el nuevo contrato de Staking a solicitud de la comunidad para aquellos que deseen ayudar con los esfuerzos de quema y disminuir el suministro de tokens circulantes.\
+Cuando esta opción es habilitada por ti, el desarrollador, los stakers pueden elegir quemar un porcentaje personalizado que elijan de sus recompensas de staking en el momento en que des-stakeen o reclamen recompensas..\
+El sacrificio se establece en 0% por defecto, de modo que los usuarios pueden decidir personalmente cuánto les gustaría quemar, si es que deciden quemar algo.
 
 ### Recompensas adicionales inyectadas manualmente
 
 <figure><img src="../../.gitbook/assets/add reward token staking.jpg" alt=""><figcaption></figcaption></figure>
 
-El contrato te permite como desarrollador del proyecto dar a tus participantes recompensas adicionales, lo cual puedes hacer inyectándolas manualmente desde tu propia billetera.\
-Por ejemplo, digamos que tienes un ingreso adicional de BNB de un juego o lo que sea, puedes tomar ese BNB y inyectarlo en el contrato de staking, el cual luego dividirá dicho BNB entre todos los participantes y todos recibirán su parte de ese BNB como recompensas de staking. \
-También puedes elegir el umbral de distribución cuando el sistema comenzará a distribuir dicho BNB entre tus participantes, por ejemplo, puedes decirle al sistema que solo distribuya las recompensas en BNB una vez que tengas 1+ BNB inyectado en el pool, para que puedas inyectar fondos en lotes más pequeños a lo largo del tiempo, pero el sistema no auto-distribuirá hasta que el umbral establecido se alcance.\
+El contrato te permite, como desarrollador del proyecto, dar a tus stakers recompensas adicionales, las cuales puedes inyectar manualmente desde tu propia billetera.\
+Por ejemplo, digamos que tienes un ingreso adicional de BNB de un juego o lo que sea, puedes tomar ese BNB e inyectarlo en el contrato de staking, que luego dividirá dicho BNB entre todos los stakers y todos recibirán su parte de ese BNB como recompensas de staking. \
+También puedes elegir el umbral de distribución cuando el sistema comenzará a distribuir dicho BNB entre tus stakers, por lo que, por ejemplo, puedes decirle al sistema que solo distribuya las recompensas de BNB una vez que hayas inyectado 1+ BNB en el pool, por lo que puedes inyectar fondos en lotes más pequeños con el tiempo pero el sistema no auto-distribuirá hasta que se alcance el umbral establecido.\
 
-### Impulsar tu Respaldo de Activos usando las recompensas
 
-Si tu SD_token tiene el mismo token configurado para respaldo de activos y también como recompensa adicional, por ejemplo, wBNB, entonces esta opción permitirá que el contrato tome un porcentaje de la recompensa adicional y envíe esa parte al pool de respaldo del token en lugar de enviarlo como recompensa para los participantes.\
-Esta opción se llama "SetBoostBacking" y por ahora se puede encontrar en SDscan > Staking > Interface > Write, y en esa lista será la opción #9. Puedes ingresar cualquier valor entre 0 a 100% y luego hacer clic en el botón "write" para activar la edición.
+### Aumenta tu Respaldo de Activos usando los tokens de recompensa
+
+Si tu SD\_token tiene el mismo token configurado para respaldo de activos y también como recompensa adicional, por ejemplo wBNB, entonces esta opción permitirá al contrato tomar un porcentaje del premio adicional y enviar esa parte al pool de respaldo de tokens en lugar de enviarlo como recompensa para stakers.\
+Esta opción se llama "SetBoostBacking" y por ahora se puede encontrar en SDscan > Staking > Interface > Write y en esa lista será la opción #9. Puedes ingresar cualquier cosa entre 0 al 100% y luego hacer clic en el botón "write" para activar la edición.

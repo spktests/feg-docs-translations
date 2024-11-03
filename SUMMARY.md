@@ -1,65 +1,65 @@
-# Índice de contenido
+# Tabla de contenidos
 
 ## Bienvenido
 
-* {{link:💡 Introducción}}
-* {{link:🔐 Auditorías de Seguridad}}
+* [💡 Introducción](README.md)
+* [🔐 Auditorías de Seguridad](welcome/security-audits.md)
 
 ## FEG SmartDeFi ™
 
-* {{link:🙊 Sobre el token FEG}}
-  * [📈 FEG Tokenomics](feg-smartdefi-tm/about-feg-token/feg-tokenomics.md)
-* {{link:🔃 Actualización de FEG}}
-  * {{link:↔️ ROX a FEG}}
-  * {{link:⌛ Actualizar FEGv1 en SS/LP}}
-* {{link:💳 Cómo Comprar FEG}}
-  * {{link:Crear una billetera de criptomonedas}}
-  * {{link:Obtener BNB/ETH}}
-  * {{link:Usar BNB/ETH para comprar FEG}}
-* {{link:💰 Staking FEG}}
-  * {{link:🔀 Navegación de Staking FEG}}
-* {{link:💸 Bonos de Liquidez}}
+* [🙊 Acerca del token FEG](feg-smartdefi-tm/about-feg-token/README.md)
+  * [📈 Tokenomics de FEG](feg-smartdefi-tm/about-feg-token/feg-tokenomics.md)
+* [🔃 Actualización de FEG](feg-smartdefi-tm/feg-upgrade/README.md)
+  * [↔️ ROX a FEG](feg-smartdefi-tm/feg-upgrade/rox-to-feg.md)
+  * [⌛ Actualizar FEGv1 en SS/LP](feg-smartdefi-tm/feg-upgrade/upgrade-fegv1-in-ss-lp.md)
+* [💳 Cómo Comprar FEG](feg-smartdefi-tm/how-to-buy-feg/README.md)
+  * [Crear una billetera de criptomonedas](feg-smartdefi-tm/how-to-buy-feg/create-a-crypto-wallet.md)
+  * [Obteniendo BNB/ETH](feg-smartdefi-tm/how-to-buy-feg/getting-bnb-eth.md)
+  * [Usar BNB/ETH para comprar FEG](feg-smartdefi-tm/how-to-buy-feg/use-bnb-eth-to-buy-feg.md)
+* [💰 Staking de FEG](feg-smartdefi-tm/feg-staking/README.md)
+  * [🔀 Navegación de Staking de FEG](feg-smartdefi-tm/feg-staking/navigate.md)
+* [💸 Bonos de Liquidez](feg-smartdefi-tm/liquidity-bonds.md)
 
 ## Plataforma SmartDeFi ™
 
-* {{link:🌟 Protocolo SmartDeFi}}
-  * {{link:💵 Respaldo de Activos}}
-  * {{link:🏦 Préstamo Inteligente}}
+* [🌟 Protocolo SmartDeFi](smartdefi-tm-platform/smartdefi-protocol/README.md)
+  * [💵 Respaldo de Activos](smartdefi-tm-platform/smartdefi-protocol/asset-backing.md)
+  * [🏦 SmartLending](smartdefi-tm-platform/smartdefi-protocol/smartlending.md)
   * [🎁 Staking](smartdefi-tm-platform/smartdefi-protocol/staking.md)
-* {{link:🚀 Plataforma de Lanzamiento de Tokens}}
-  * {{link:〽️ Crear un Token}}
-  * {{link:💵 Lanzamiento de Liquidez Privada}}
-  * {{link:💰 Lanzamiento de Preventa}}
-    * {{link:👤 LGE para Desarrolladores}}
-    * {{link:👥 LGE para Inversores}}
-  * {{link:🪙 Habilitar Staking}}
-  * {{link:💸 Convertidor de Tarifas}}
-  * {{link:📖 Herramienta SDscan}}
+* [🚀 Launchpad de Tokens](smartdefi-tm-platform/token-launchpad/README.md)
+  * [〽️ Crear un Token](smartdefi-tm-platform/token-launchpad/create-a-token.md)
+  * [💵 Lanzamiento de Liquidez Privada](smartdefi-tm-platform/token-launchpad/private-liquidity-launch.md)
+  * [💰 Lanzamiento de Preventa](smartdefi-tm-platform/token-launchpad/presale-launch/README.md)
+    * [👤 LGE para Desarrolladores](smartdefi-tm-platform/token-launchpad/presale-launch/lge-for-devs.md)
+    * [👥 LGE para Inversores](smartdefi-tm-platform/token-launchpad/presale-launch/lge-for-investors.md)
+  * [🪙 Habilitar Staking](smartdefi-tm-platform/token-launchpad/enable-staking.md)
+  * [💸 Convertidor de Tarifas](smartdefi-tm-platform/token-launchpad/fee-converter.md)
+  * [📖 Herramienta SDscan](smartdefi-tm-platform/token-launchpad/sdscan-tool/README.md)
     * [🔶 Token](smartdefi-tm-platform/token-launchpad/sdscan-tool/token.md)
-    * {{link:🔷 Respaldo}}
-    * {{link:🟡 Staking - Interfaz}}
+    * [🔷 Respaldo](smartdefi-tm-platform/token-launchpad/sdscan-tool/backing.md)
+    * [🟡 Staking - Interfaz](smartdefi-tm-platform/token-launchpad/sdscan-tool/staking-interface.md)
     * [🟪 LGE](smartdefi-tm-platform/token-launchpad/sdscan-tool/lge/README.md)
-      * {{link:Implementador}}
-      * {{link:Interfaz}}
-    * {{link:⚪ Personalizado}}
+      * [Implementador](smartdefi-tm-platform/token-launchpad/sdscan-tool/lge/deployer.md)
+      * [Interfaz](smartdefi-tm-platform/token-launchpad/sdscan-tool/lge/interface.md)
+    * [⚪ Personalizado](smartdefi-tm-platform/token-launchpad/sdscan-tool/custom.md)
     * [🔐 SDPause](smartdefi-tm-platform/token-launchpad/sdscan-tool/sdpause.md)
-* {{link:⛓️ Puente entre cadenas}}
-* {{link:📜 Mejoras Personalizadas ROXary}}
-* {{link:📝 Activos del Mundo Real (RWA)}}
-* {{link:💲 Tarifas de la Plataforma}}
+* [⛓️ Puente de Cadena Cruzada](smartdefi-tm-platform/cross-chain-bridge.md)
+* [📜 Actualizaciones Personalizadas ROXary](smartdefi-tm-platform/roxary-custom-upgrades.md)
+* [📝 Activos del Mundo Real (RWA)](smartdefi-tm-platform/real-world-assets-rwa.md)
+* [💲 Tarifas de la Plataforma](smartdefi-tm-platform/platform-fees.md)
 
 ## FEGtrack
 
-* {{link:📊 Aplicación FEGtrack}}
-  * {{link:📲 Interfaz de FEGtrack}}
+* [📊 Aplicación FEGtrack](fegtrack/fegtrack-app/README.md)
+  * [📲 Interfaz de FEGtrack](fegtrack/fegtrack-app/fegtrack-interface.md)
 
-## Órdenes Limitadas FTW <a href="#ftw" id="ftw"></a>
+## Órdenes Límite FTW <a href="#ftw" id="ftw"></a>
 
-* {{link:🗳️ FTW - Desde la Billetera}}
+* [🗳️ FTW - Desde la Billetera](ftw/ftw-from-the-wallet.md)
 
-## Agregador / Router <a href="#aggregator" id="aggregator"></a>
+## Agregador / Enrutador <a href="#aggregator" id="aggregator"></a>
 
-* {{link:🔄 Información del Agregador}}
+* [🔄 Información del Agregador](aggregator/aggregator-info.md)
 
 ## Billetera Grafene 2FA <a href="#grafene" id="grafene"></a>
 
@@ -67,21 +67,21 @@
 
 ## Recursos
 
-* {{link:📚 Diccionario}}
-* {{link:🗃️ Direcciones Actuales}}
-  * {{link:🔒 Liquidez Segura}}
-* {{link:🖼️ Kit de Medios}}
-* {{link:🏛️ Archivo}}
-  * {{link:📖 Descontinuado}}
-    * [fWrap tokens](resources/archive/discontinued/fwrap-tokens.md)
-  * {{link:📄 Direcciones antiguas}}
-  * [💼 Préstamo de Liquidez \[Completo\]](resources/archive/liquidity-loan-completed.md)
+* [📚 Diccionario](resources/dictionary.md)
+* [🗃️ Direcciones Actuales](resources/curent-addresses/README.md)
+  * [🔒 Liquidez Segura](resources/curent-addresses/secure-liquidity.md)
+* [🖼️ Kit de Medios](resources/media-kit.md)
+* [🏛️ Archivo](resources/archive/README.md)
+  * [📖 Descontinuado](resources/archive/discontinued/README.md)
+    * [Tokens fWrap](resources/archive/discontinued/fwrap-tokens.md)
+  * [📄 Direcciones Antiguas](resources/archive/old-addresses.md)
+  * [💼 Préstamo de Liquidez \[Completado\]](resources/archive/liquidity-loan-completed.md)
 
 ## Recuperación
 
-* {{link:💸 Recuperación de FEGex/SD Antiguo}}
-  * {{link:🟢 Fase 1 - SDR}}
-    * {{link:👩‍💻 SDR para Desarrolladores}}
-    * {{link:👩‍🏫 SDR para Inversores}}
-    * {{link:⚙️ Proceso SDR}}
-  * {{link:🔴 Fase 2 - Proyectos agotados}}
+* [💸 Recuperación de FEGex/SD Antiguo](recovery/old-fegex-sd-recovery/README.md)
+  * [🟢 Etapa 1 - SDR](recovery/old-fegex-sd-recovery/stage-1-sdr/README.md)
+    * [👩‍💻 SDR para Desarrolladores](recovery/old-fegex-sd-recovery/stage-1-sdr/sdr-for-devs.md)
+    * [👩‍🏫 SDR para Inversores](recovery/old-fegex-sd-recovery/stage-1-sdr/sdr-for-investors.md)
+    * [⚙️ Proceso SDR](recovery/old-fegex-sd-recovery/stage-1-sdr/sdr-process.md)
+  * [🔴 Etapa 2 - Proyectos Drenados](recovery/old-fegex-sd-recovery/stage-2-drained-projects.md)
